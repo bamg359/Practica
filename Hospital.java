@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Hospital {
 
     private String nombre;
+    private double prueba;
     ArrayList<Empleado> empleado = new ArrayList<>();
 
     public String getNombre() {
